@@ -37,7 +37,7 @@ DEST_PATH   = "/var/tethr-servr/files"
 
 # Tethr variables
 
-TETHR_KEY_PATH = "/root/.ssh/id_rsa"
+TETHR_KEY_PATH = "/home/tethr/.ssh/id_rsa"
 TETHR_SERVR_USER = "tethr-servr"
 
 # rsync variables

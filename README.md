@@ -54,8 +54,10 @@ Tethr also synchronises to a cloud based rsync over ssh daemon.
 Installation
 ------------
 
-* apt-get nginx uwsgi-plugin-python uwsgi-plugin-http uwsgi-core python-pip python-flask python-virtualenv
+* apt-get install nginx uwsgi-plugin-python uwsgi-plugin-http uwsgi-core python-pip python-flask python-virtualenv
 * virtualenv /var/tethr/venv
+* mkdir /var/log/tethr
+* Add the ssh key to the rsync destination 'authorized_keys' file
 * /var/tethr/managr/scripts/pirsyncd # start the Tethr file synchronisation script
 
 Testing
